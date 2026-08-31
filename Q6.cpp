@@ -1,0 +1,24 @@
+#include <iostream>
+#include <iomanip>
+
+struct cordenada {
+    double x, y;
+};
+
+double menor_distancia(cordenada pontos[], int n) {
+    double d;
+    // TODO
+    return d;
+}
+
+int main() {
+    int n;
+    std::cin >> n;
+    cordenada pontos[n];
+    for (int i = 0; i < n; ++i) {
+        std::cin >> pontos[i].x >> pontos[i].y;
+    }
+    double distancia = menor_distancia(pontos, n);
+    std::cout << std::fixed << std::setprecision(4) << distancia << std::endl;
+    return 0;
+}
