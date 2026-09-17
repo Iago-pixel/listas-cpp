@@ -31,5 +31,6 @@ int main() {
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(dur);
     std::cerr << n << " Processing time: "
               << duration.count() << " microseconds(s)" << std::endl;
+
     return 0;
 }

@@ -2,5 +2,5 @@
 
 for i in $(cat entradas.txt)
 do
-    echo $i | ./criar_grafico_Q4
+    echo $i | ./pegar_saidas_Q4
 done
