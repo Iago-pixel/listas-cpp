@@ -14,9 +14,9 @@ bool prime(long long n) {
 
 int main() {
     std::ofstream myfile;
-    myfile.open("saida.txt");
+    myfile.open("saidas.txt");
 
-    for (int i = 0; i < 40; i++) {
+    for (int i = 0; i < 42; i++) {
         long long n;
         std::cin >> n;
 
